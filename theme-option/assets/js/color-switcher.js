@@ -84,12 +84,14 @@ $(document).ready(function(){
 	})
 	
 	//RTL LTR
+    /*
 	$(document).on('click','#switcher-rtl .ltr',function(){ 
 		$('#switcher-rtl a').removeClass('activeTheme');
 		$(this).addClass('activeTheme');
 		$('html').attr('dir','');
 		$('#htmlrtl').remove();
 	});
+    */
 	$(document).on('click','#switcher-rtl .rtl',function(){
 		$('#switcher-rtl a').removeClass('activeTheme');
 		$(this).addClass('activeTheme');

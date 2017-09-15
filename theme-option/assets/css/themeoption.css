@@ -10,6 +10,7 @@
         background-color: #fff;
     border-radius: 0;
     left: -270px;
+    right: auto;
     padding: 15px 0 25px;
     position: fixed;
     top: 156px;
@@ -347,7 +348,7 @@
 }
 
 html[dir="rtl"] #style-switcher{
-	right:0;
+    right:0;
 	left:auto !important;
 }
 
